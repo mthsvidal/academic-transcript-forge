@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademicTranscriptForge.API", "AcademicTranscriptForge\AcademicTranscriptForge.API.csproj", "{BB66DCF7-F682-4CF5-B31F-BD049B80F01B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{E9E3B8EE-DE4C-47CB-AC38-97787FAD0DFD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Domain", "2 - Domain", "{DC8AC7B3-6F51-466F-B449-3661EBF1E732}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademicTranscriptForge.Domain", "AcademicTranscriptForge.Domain\AcademicTranscriptForge.Domain.csproj", "{238C593D-B9BD-4E62-B8FB-3806294EDA54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Infra", "3 - Infra", "{507951D5-B571-40B7-BE64-A40EF51AE2FE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.1 - Data", "3.1 - Data", "{AFC710A7-8FAF-401B-B7B5-AF1C347494D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcademicTranscriptForge.Infra.Data", "AcademicTranscriptForge.Infra.Data\AcademicTranscriptForge.Infra.Data.csproj", "{5EFA3312-50E2-42B7-BAD3-4494FBDF8C7E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB66DCF7-F682-4CF5-B31F-BD049B80F01B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB66DCF7-F682-4CF5-B31F-BD049B80F01B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB66DCF7-F682-4CF5-B31F-BD049B80F01B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB66DCF7-F682-4CF5-B31F-BD049B80F01B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{238C593D-B9BD-4E62-B8FB-3806294EDA54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{238C593D-B9BD-4E62-B8FB-3806294EDA54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{238C593D-B9BD-4E62-B8FB-3806294EDA54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{238C593D-B9BD-4E62-B8FB-3806294EDA54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EFA3312-50E2-42B7-BAD3-4494FBDF8C7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EFA3312-50E2-42B7-BAD3-4494FBDF8C7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EFA3312-50E2-42B7-BAD3-4494FBDF8C7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EFA3312-50E2-42B7-BAD3-4494FBDF8C7E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BB66DCF7-F682-4CF5-B31F-BD049B80F01B} = {E9E3B8EE-DE4C-47CB-AC38-97787FAD0DFD}
+		{238C593D-B9BD-4E62-B8FB-3806294EDA54} = {DC8AC7B3-6F51-466F-B449-3661EBF1E732}
+		{AFC710A7-8FAF-401B-B7B5-AF1C347494D9} = {507951D5-B571-40B7-BE64-A40EF51AE2FE}
+		{5EFA3312-50E2-42B7-BAD3-4494FBDF8C7E} = {AFC710A7-8FAF-401B-B7B5-AF1C347494D9}
+	EndGlobalSection
+EndGlobal

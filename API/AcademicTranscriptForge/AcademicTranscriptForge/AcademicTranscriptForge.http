@@ -1,0 +1,6 @@
+@AcademicTranscriptForge_HostAddress = http://localhost:5299
+
+GET {{AcademicTranscriptForge_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
